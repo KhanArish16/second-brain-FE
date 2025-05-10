@@ -12,11 +12,6 @@ function App() {
       ></Button>
 
       <Button variant={"secondary"} size="md" title={"Share"}></Button>
-
-      <Button variant={"secondary"} size="md" title={"Share"}></Button>
-
-      <Button variant={"secondary"} size="md" title={"Share"}></Button>
-      <Button variant={"secondary"} size="md" title={"Share"}></Button>
     </>
   );
 }
