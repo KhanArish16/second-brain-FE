@@ -1,7 +1,6 @@
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import { ShareIcon } from "../icons/ShareIcons";
 
-// Extend the Window interface to include the twttr property
 declare global {
   interface Window {
     twttr: {
