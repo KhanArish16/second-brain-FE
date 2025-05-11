@@ -19,7 +19,7 @@ const variantStyles = {
   secondary: "bg-purple-300 text-purple-600",
 };
 
-const defaultStyles = "rounded-md flex";
+const defaultStyles = "rounded-md flex font-light";
 
 export function Button(props: ButtonInterface) {
   return (
