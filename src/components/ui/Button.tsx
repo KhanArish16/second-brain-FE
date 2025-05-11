@@ -31,9 +31,8 @@ export function Button({
         variantClasses[variant] +
         " " +
         defaultStyles +
-        `${fullWidth ? " w-full flex justify-center items-center" : ""} ${
-          loading ? "opacity-45	" : ""
-        }`
+        `${fullWidth ? " w-full flex justify-center items-center" : ""} 
+        ${loading ? "opacity-45	" : ""}`
       }
       disabled={loading}
     >

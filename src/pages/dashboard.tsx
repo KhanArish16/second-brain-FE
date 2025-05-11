@@ -34,11 +34,32 @@ function Dashboard() {
             startIcon={<PlusIcon />}
           ></Button>
           <Button
+            // onClick={async () => {
+            //   const response = await axios.post(
+            //     `${BACKEND_URL}/api/v1/brain/share`,
+            //     {
+            //       share: true,
+            //     },
+            //     {
+            //       headers: {
+            //         Authorization: localStorage.getItem("token"),
+            //       },
+            //     }
+            //   );
+            //   const shareUrl = `http://localhost:5173/share/${response.data.hash}`;
+            //   alert(shareUrl);
+            // }}
             variant="secondary"
             text="Share brain"
             startIcon={<ShareIcon />}
           ></Button>
         </div>
+
+        {/* <div className="flex gap-4 flex-wrap">
+          {contents.map(({ type, link, title }) => (
+            <Card type={type} link={link} title={title} />
+          ))}
+        </div> */}
       </div>
     </div>
   );
